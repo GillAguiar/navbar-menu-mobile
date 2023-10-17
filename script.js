@@ -1,7 +1,7 @@
-const btnMobile = document.querySelector('#nav');
+const btnMobile = document.querySelector('#btn-mobile');
 
 function toogleMenu(event){
-    if (event.type === 'touchstart') event.preventDefault
+    if (event.type === 'touchstart') event.preventDefault();
     const nav = document.querySelector('#nav');
     nav.classList.toggle('active');
     const active = nav.classList.contains('active');

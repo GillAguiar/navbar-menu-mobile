@@ -20,10 +20,10 @@ a:hover{
 }
 
 #header{
-    display: flex;
     box-sizing: border-box;
     height: 70px;
     padding: 1rem;
+    display: flex;
     align-items: center;
     justify-content: space-between;
     background: #e7e7e7;
@@ -53,9 +53,9 @@ a:hover{
         top: 70px;
         right: 0px;
         background: #e7e7e7;
-        height: 0px;
         transition: .6s;
         z-index: 1000;
+        height: 0px;
         visibility: hidden;
         overflow-y: hidden;
     }
@@ -76,9 +76,9 @@ a:hover{
         border: none;
         background: none;
         cursor: pointer;
+        gap: .5rem;
     }
     #hamburguer{
-        display: block;
         border-top: 2px solid;
         width: 20px;
     }
